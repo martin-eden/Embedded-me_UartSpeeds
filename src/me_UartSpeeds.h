@@ -9,7 +9,7 @@
     Esplora_Normal_Bps
     Arduino_Failsafe_Bps
 
-  Of course in code you need
+  Of course in your code you need
 
     #include <me_UartSpeeds.h>
     ...
@@ -24,15 +24,17 @@
 
 /*
   Author: Martin Eden
-  Last mod.: 2024-04-09
+  Last mod.: 2024-05-17
 */
 
 #pragma once
 
-#include <me_Types.h>
+#include <me_BaseTypes.h>
 
 namespace me_UartSpeeds
 {
+  using namespace me_BaseTypes;
+
   enum StandardSpeeds:TUint_4
   {
     Bps_300 = 300,

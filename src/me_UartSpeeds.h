@@ -24,7 +24,7 @@
 
 /*
   Author: Martin Eden
-  Last mod.: 2024-05-17
+  Last mod.: 2024-09-12
 */
 
 #pragma once
@@ -33,8 +33,6 @@
 
 namespace me_UartSpeeds
 {
-  using namespace me_BaseTypes;
-
   enum StandardSpeeds:TUint_4
   {
     Bps_300 = 300,

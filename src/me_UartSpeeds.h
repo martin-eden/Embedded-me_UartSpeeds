@@ -3,7 +3,7 @@
 /*
   Version: 2
   Author: Martin Eden
-  Last mod.: 2024-10-29
+  Last mod.: 2024-11-05
 */
 
 #pragma once
@@ -19,7 +19,8 @@ namespace me_UartSpeeds
     Bps_115k = 115200,
     Bps_250k = 250000,
     Bps_500k = 500000,
-    Bps_1M = 1000000;
+    Bps_1M = 1000000,
+    Bps_2M = 2000000;
 }
 
 /*
@@ -27,4 +28,5 @@ namespace me_UartSpeeds
   2024-04-09
   2024-09-26
   2024-10-29
+  2024-11-05
 */
